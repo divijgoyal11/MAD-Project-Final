@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Registration">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Registration"/>
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:text="Enter your location"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve"
+            android:hint="Location"
+            android:textSize="15dp"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve"
+            android:hint="+91 00000 00000"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="15dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/PersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Name"
+            android:textSize="15dp"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="30dp"
+            android:text="Enter your phone number"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="30dp"
+            android:text="Username"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="30dp"
+            android:text="Email"
+            android:textColor="@color/grey" />
+
+
+        <EditText
+            android:id="@+id/EmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/curve"
+            android:ems="10"
+            android:hint="Enter your Email"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="30dp"
+            android:text="Password"
+            android:textColor="@color/grey" />
+
+        <EditText
+            android:id="@+id/R_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/curve"
+            android:hint="Enter your Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="15dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/R_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/email"
+            android:bottomLeftRadius="50dp"
+            android:bottomRightRadius="50dp"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:topLeftRadius="50dp"
+            android:topRightRadius="50dp" />
+
+        <TextView
+            android:id="@+id/To_Login"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginRight="30dp"
+            android:text="Already have an account? Login"
+            android:textColor="@color/grey"/>
+    </RelativeLayout>
+
+</RelativeLayout>
